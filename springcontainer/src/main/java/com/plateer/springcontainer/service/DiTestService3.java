@@ -23,6 +23,7 @@ public class DiTestService3{
 		// TODO Auto-generated method stub
 		log.info("DiTestService3 call3 start!!");
 		setServiceBean();
+		log.info("service4 주소값 : " + service4.hashCode());
 		service4.call4();
 		log.info("DiTestService3 call3 end!!");
 	}

@@ -13,6 +13,7 @@ public class DiTestService{
 	public void call() {
 		// TODO Auto-generated method stub
 		log.info("DiTestService call start!!");
+		//log.info("service2 주소값 : " + service2.hashCode());
 		service2.call2();
 		log.info("DiTestService call end!!");
 	}
